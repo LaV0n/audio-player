@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Player</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
-    
+<body >
+  <img src="Empty.png " alt="0" id="wall" style="position: absolute;">
+  <div class="container">
+  <div class="singer" id="artist"> </div>
+  <div class="song" id="songId"></div>
+  <div ><img src=" Empty.png" alt = "." class="box" id="picSmall"> </div>
+  <audio ontimeupdate="setInterval(this)"></audio>
+   <div class="timeline">
+   <div class="progress"></div>
+  </div>
+  <div class="time">
+    <div id="current"></div>    
+    <div id="length" ></div>
+  </div>
+  <button class="start-B"></button>
+  <button class="play-next"></button>
+  <button class="play-prev"></button>  
+</div>
+  <script src="script.js"> </script>
 </body>
+<footer >
+  <div><a href="https://rs.school/js-stage0/" > RS School </a></div>
+  <div><a href="https://github.com/LaV0n"  style="right: 10px;"> by LaV0n</a></div>
+  <div style="position: absolute; bottom: 20px; left: 50%; color: #000; font-family: Arial, Helvetica, sans-serif; font-size: 15px; ">2022</div>
+</footer>
 </html>

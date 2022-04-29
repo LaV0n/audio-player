@@ -1,0 +1,160 @@
+body{
+     background: blueviolet;
+       z-index: 0;
+}
+.start-B {
+background: url(play.png);
+background-size: 100%;
+position: absolute;
+bottom: 53px;
+right: 35px;
+height: 55px;
+width: 55px;
+z-index: 4;
+cursor: pointer;
+border: 0;
+}
+.start-B:hover{
+    opacity: 0.75;
+}
+.pause-B {
+    background: url(pause.png);
+    background-size: 100%;
+    position: absolute;
+    height: 55px;
+    width: 55px;    
+    z-index: 4;
+    cursor: pointer;  
+}
+.pause-B:hover{
+    opacity: 0.75;
+    }
+.play-next:hover{
+    opacity: 0.75;
+}
+.play-prev:hover{
+    opacity: 0.75;
+}
+.play-next {
+    background: url(forward.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: 194px;
+    right: 156px;
+    height: 80px;
+    width: 80px;
+    filter: invert(1);
+    z-index: 4;
+    cursor: pointer;
+    border: 0;  
+}
+.play-prev {
+    background: url(backward.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: 194px;
+    left: 155px;
+    height: 80px;
+    width: 80px;
+    filter: invert(1);
+    z-index: 4;
+    cursor: pointer; 
+    border: 0;
+}
+.container {
+    position: absolute;    
+    width: 500pt;
+    height: 322pt;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(cassette.png);
+    background-size: 100%;
+    opacity: 0.9;
+       }
+.box {
+    position: absolute;
+    height: 101px;
+    width: 101px;
+    size: 10%;
+    z-index: 4;
+    top: 34%;
+    right: 43%;
+    border-radius: 10px;
+    border: 1px solid white;
+     }
+     #wall {       
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ filter: blur(10px);
+     }
+.singer {
+    position: absolute;
+  z-index: 4;
+  color: rgba(12, 3, 148, 0.884);
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  top: 15%;
+  left: 20%;
+ }
+ .song {
+    position: absolute;
+    z-index: 4;
+    color: rgb(5, 19, 99);
+    font-family: '', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    top: 15%;
+    left: 60%;  
+ }
+ a {
+    position: absolute;  
+    font-family: ImpacMontserrat, sans-serif; 
+    font-size: 18px; 
+    color: azure; 
+    text-decoration: none;
+    text-shadow: 1px 3px rgb(59, 58, 58);    
+    bottom: 20px;
+ }
+.timeline {
+    background:rgb(230, 200, 200);
+    width: 560px;
+    height: 17px;
+    bottom: -78px;
+    border: 1px solid #000;
+    position: relative;
+    cursor: pointer;
+    
+    }
+    .progress {
+        background: coral;
+        width: 0%;
+        height: 100%;
+        transition: 0.25s;
+      }
+      .time {
+        position: absolute; 
+        font-family: Arial, Helvetica, sans-serif; 
+          left: 250px;
+          bottom: 70px;
+          font-size: 20px;
+          color: rgb(20, 20, 20);
+      }
+      #length{
+        position: absolute;
+        left: 125px;
+        bottom: 0px;
+      }
+      
